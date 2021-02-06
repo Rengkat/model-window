@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Model form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="first">
+        <h1>WELCOME TO MY WEBSITE</h1>
+        <p style="text-align: center; color: white">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+          quos!
+        </p>
+        <div class="btn">
+          <button id="form--1">INTRODUCTION</button>
+          <button id="form--2">BIO FORM</button>
+          <button id="form--3">LOCATION</button>
+        </div>
+      </div>
+      <section class="hidden section--1">
+        <button class="close close--1">X</button>
+        <h3>Introduction</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos tempore
+          necessitatibus recusandae optio, quis, culpa quaerat sit neque quae,
+          et eos architecto laboriosam. Eius placeat iure, nam deleniti facere
+          voluptates molestiae. Suscipit ipsum eveniet vel sed doloribus ea
+          quibusdam, totam repellendus, eius officiis praesentium nihil atque
+          nemo voluptatem eaque magnam, sequi dolore! Reiciendis est doloremque
+          blanditiis iure sapiente ab dolores fuga, inventore optio provident.
+          Consectetur rem labore explicabo consequuntur veritatis doloribus
+          totam quod molestiae eaque nemo nostrum dignissimos aperiam ex
+          distinctio iusto beatae amet, autem deserunt corporis dolores
+          adipisci? Quibusdam ducimus, eveniet quisquam minus laboriosam tempora
+          eligendi aut laudantium quas?
+        </p>
+      </section>
+      <section class="hidden section--2">
+        <button class="close close--2">X</button>
+        <form>
+          <label for="name">First Name:</label><br />
+          <input type="text" placeholder="Enter first name" /><br />
+          <br />
+          <label for="name">Last Name:</label><br />
+          <input type="text" placeholder="Enter last name" /><br />
+          <br />
+          <label>Email:</label><br />
+          <input
+            type="Email"
+            name="Email"
+            placeholder="Enter valid Email"
+          /><br />
+          <br />
+          <label>Password:</label><br />
+          <input
+            type="Password"
+            name="Password"
+            placeholder="Enter Password"
+          /><br />
+          <br />
+          <label>Confirm Password:</label><br />
+          <input
+            type="Password"
+            name="Password"
+            placeholder="Enter Password"
+          /><br />
+          <br />
+          <button type="submit">SUBMIT</button>
+        </form>
+      </section>
+      <section class="hidden section--3">
+        <button class="close close--3">X</button>
+        <form>
+          <label for="name">Country:</label><br />
+          <input type="text" placeholder="Enter country" /><br />
+          <br />
+          <label for="name">State:</label><br />
+          <input type="text" placeholder="Enter state name" /><br />
+          <br />
+          <label>City:</label><br />
+          <input type="text" name="state" placeholder="Enter city" /><br />
+          <br />
+          <label>Current Address:</label><br />
+          <input
+            type="text"
+            name="address"
+            placeholder="Enter current address"
+          /><br />
+          <br />
+          <label>Alternative Address:</label><br />
+          <input
+            type="text"
+            name="address 2"
+            placeholder="Enter  alternative address"
+          /><br />
+          <br />
+          <button type="submit">SUBMIT</button>
+        </form>
+      </section>
+      <div class="hidden overlay"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
